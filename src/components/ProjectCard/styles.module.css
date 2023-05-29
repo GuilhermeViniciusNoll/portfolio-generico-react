@@ -1,0 +1,49 @@
+.item {
+    border: solid 1px var(--white);
+    border-radius: 25px;
+
+    width: clamp(250px, 40vw, 430px);
+    height: 183px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.container {
+    padding-left: 40px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    color: var(--white);
+
+    font-size: var(--size-h3);
+    font-weight: var(--weight-bold)
+}
+
+.description {
+    color: var(--white);
+
+    font-size: var(--size-p);
+    font-weight: var(--weight-regular)
+}
+
+.span {
+    color: var(--primary);
+
+    font-size: var(--size-link);
+    font-weight: var(--weight-bold)
+}
+
+.img {
+    width: 37px;
+    height: 36px;
+
+    margin: 25px;
+}

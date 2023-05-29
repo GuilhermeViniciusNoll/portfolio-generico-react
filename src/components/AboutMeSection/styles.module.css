@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 55px;
+
+    margin: 100px 35px;
+}
+
+.title {
+
+    color: var(--white);
+
+    font-size: clamp(var(--size-h2-min), 10vw, var(--size-h2-max));
+    font-weight: var(--weight-bold);
+}
+
+.description {
+    color: var(--white);
+
+    font-size: var(--size-paragraph);
+    font-weight: var(--weight-regular);
+    line-height: var(--line-heigth-p);
+
+    max-width: 500px;
+    height: 150px;
+}

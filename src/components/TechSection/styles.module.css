@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    margin:0px 35px;
+    gap: 1.5625rem;
+}
+
+.title {
+    color: var(--white);
+
+    font-size: clamp(var(--size-h2-min), 10vw, var(--size-h2-max));
+    font-weight: var(--weight-bold);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    max-width: 850px;
+    height: auto;
+    gap: 15px;
+}
