@@ -1,9 +1,9 @@
 .section {
     display: flex;
     flex-direction: column;
-    gap: 35px;
     width: auto;
-    margin: 100px 35px 0px;
+    gap: 35px;
+    margin: 120px 0px;
 }
 
 .title {
@@ -17,8 +17,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 15px;
 
-    max-width: 885px;
     height: auto;
 }

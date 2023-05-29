@@ -11,8 +11,9 @@
 }
 
 .item {
-    width: 260px;
-    height: 66px;
+    /* width: 325px; */
+    width: clamp(277px, 40vw, 325px);
+    height: 86px;
     padding-left: 35px;
 
     border: solid 1px var(--white);
@@ -22,5 +23,10 @@
     flex-direction: row;
     align-items: center;
     gap: 25px;
+}
 
+@media(max-width:632px) {
+    .item {
+        width: clamp(210px, 100%, 325px);
+    }
 }

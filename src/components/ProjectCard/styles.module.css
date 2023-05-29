@@ -2,13 +2,12 @@
     border: solid 1px var(--white);
     border-radius: 25px;
 
-    width: clamp(250px, 40vw, 430px);
+    width: clamp(277px, 40vw, 490px);
     height: 183px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .container {
@@ -46,4 +45,10 @@
     height: 36px;
 
     margin: 25px;
+}
+
+@media(max-width:632px) {
+    .item {
+        width: clamp(210px, 100%, 325px);
+    }
 }
