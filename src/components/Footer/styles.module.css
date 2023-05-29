@@ -1,34 +1,31 @@
-
-.footer{
-    /* max-width: 100%; */
-
+.footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 
-    margin:50px 35px 50px;
+    margin: 50px 35px 50px;
     padding: 25px;
 
     border-top: solid 1px var(--white);
     border-bottom: solid 1px var(--white);
-   
+
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.container>div{
+.container>div {
     display: flex;
-   flex-direction: row;
-   gap: 15px;
+    flex-direction: row;
+    gap: 15px;
 }
 
-.title{
+.title {
 
     color: var(--white);
 
@@ -36,17 +33,14 @@
     font-weight: var(--weight-bold);
 }
 
-
-.img{}
-
-.paragraph{
+.paragraph {
     color: var(--white);
 
     font-size: var(--size-p);
     font-weight: var(--weight-regular);
 }
 
-.name{
+.name {
     color: var(--white);
 
     font-size: var(--size-p);

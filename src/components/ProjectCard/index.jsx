@@ -1,9 +1,9 @@
 import styles from './styles.module.css'
 import logoGit from '../../assets/git-icon.png'
 
-export function ProjectCard({ name, description }){
+export function ProjectCard({ name, description }) {
 
-    return(
+    return (
         <li className={styles.item}>
             <div className={styles.container}>
                 <h3 className={styles.title}>{name}</h3>
