@@ -1,6 +1,6 @@
-import styles from './styles.module.css'
-import { technologies } from '../../data/technologies.js'
-import { TechCard } from '../TechCard/index.jsx'
+import styles from "./styles.module.css"
+import { technologies } from "../../data/technologies.js"
+import { TechCard } from "../TechCard/index.jsx"
 
 export function TechSection() {
 

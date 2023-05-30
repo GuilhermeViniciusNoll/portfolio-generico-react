@@ -1,6 +1,6 @@
 import { projects } from "../../data/projects.js"
 import { ProjectCard } from "../ProjectCard/index.jsx"
-import styles from './styles.module.css'
+import styles from "./styles.module.css"
 
 
 export function ProjectSection() {

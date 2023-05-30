@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import logoGit from '../../assets/git-icon.png'
+import styles from "./styles.module.css"
+import logoGit from "../../assets/git-icon.png"
 
 export function ProjectCard({ name, description }) {
 

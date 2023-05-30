@@ -1,8 +1,8 @@
-import { user } from '../../data/user.js'
-import styles from './styles.module.css'
-import logoWhatsApp from '../../assets/whatsapp-icon.png'
-import logoLinkedin from '../../assets/linkedin-icon.png'
-import logoGitHub from '../../assets/github-icon.png'
+import { user } from "../../data/user.js"
+import styles from "./styles.module.css"
+import logoWhatsApp from "../../assets/whatsapp-icon.png"
+import logoLinkedin from "../../assets/linkedin-icon.png"
+import logoGitHub from "../../assets/github-icon.png"
 
 export function Footer() {
     return (

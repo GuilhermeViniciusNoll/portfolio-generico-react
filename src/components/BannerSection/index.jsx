@@ -1,7 +1,7 @@
 import { Button } from "../Button/index.jsx";
-import banner from '../../assets/banner-img.png'
-import styles from './styles.module.css'
-import { username } from '../../data/user.js'
+import banner from "../../assets/banner-img.png"
+import styles from "./styles.module.css"
+import { username } from "../../data/user.js"
 
 export function BannerSection() {
 
